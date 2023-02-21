@@ -19,7 +19,7 @@ void main() {
   var list = ['a', 'ab', 'abc'];
   int sum = 0;
   for (int i = 0; i < list.length; i++) {
-      sum += list[i].length;
+    sum += list[i].length;
   }
   print(sum);
 }
